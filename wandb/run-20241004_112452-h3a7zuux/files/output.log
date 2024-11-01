@@ -1,0 +1,27 @@
+/home/usagers/yaach/Documents/HLTP/evaluate_student.py:106: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  generator.load_state_dict(t.load(l_path + 'epoch' + name + '_g.pth', map_location='cuda:0'))
+/home/usagers/yaach/Documents/HLTP/evaluate_student.py:107: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  gdEncoder.load_state_dict(t.load(l_path + 'epoch' + name + '_gd.pth', map_location='cuda:0'))
+Traceback (most recent call last):
+  File "/usagers3/yaach/miniconda3/envs/HLTP/lib/python3.9/site-packages/scipy/io/matlab/_mio.py", line 39, in _open_file
+    return open(file_like, mode), True
+FileNotFoundError: [Errno 2] No such file or directory: './data/dataset_t_v_t/TestSet.mat'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/usagers/yaach/Documents/HLTP/evaluate_student.py", line 213, in <module>
+    evaluate.main(name=epoch, val=False)
+  File "/home/usagers/yaach/Documents/HLTP/evaluate_student.py", line 125, in main
+    t2 = lo.ngsimDataset('./data/dataset_t_v_t/TestSet.mat')
+  File "/home/usagers/yaach/Documents/HLTP/loader2.py", line 19, in __init__
+    self.D = scp.loadmat(mat_file)['traj']
+  File "/usagers3/yaach/miniconda3/envs/HLTP/lib/python3.9/site-packages/scipy/io/matlab/_mio.py", line 225, in loadmat
+    with _open_file_context(file_name, appendmat) as f:
+  File "/usagers3/yaach/miniconda3/envs/HLTP/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/usagers3/yaach/miniconda3/envs/HLTP/lib/python3.9/site-packages/scipy/io/matlab/_mio.py", line 17, in _open_file_context
+    f, opened = _open_file(file_like, appendmat, mode)
+  File "/usagers3/yaach/miniconda3/envs/HLTP/lib/python3.9/site-packages/scipy/io/matlab/_mio.py", line 45, in _open_file
+    return open(file_like, mode), True
+FileNotFoundError: [Errno 2] No such file or directory: './data/dataset_t_v_t/TestSet.mat'

@@ -1,0 +1,18 @@
+{"time":"2024-10-04T14:55:17.532927228-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-04T14:55:17.53296077-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241004_145517-iz7do56f/logs/debug-core.log"}
+{"time":"2024-10-04T14:55:17.534475354-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-04T14:55:17.537249126-04:00","level":"INFO","msg":"created new stream","id":"iz7do56f"}
+{"time":"2024-10-04T14:55:17.537279795-04:00","level":"INFO","msg":"stream: started","id":"iz7do56f"}
+{"time":"2024-10-04T14:55:17.537289627-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"iz7do56f"}}
+{"time":"2024-10-04T14:55:17.537306222-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"iz7do56f"}}
+{"time":"2024-10-04T14:55:17.53729937-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"iz7do56f"}}
+{"time":"2024-10-04T14:55:17.695979809-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T14:55:17.696461086-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T14:55:25.524210066-04:00","level":"INFO","msg":"stream: closing","id":"iz7do56f"}
+{"time":"2024-10-04T14:55:25.524234879-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T14:55:25.525071515-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T14:55:25.867946371-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-04T14:55:25.974030825-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"iz7do56f"}}
+{"time":"2024-10-04T14:55:25.974081891-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"iz7do56f"}}
+{"time":"2024-10-04T14:55:25.974100042-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"iz7do56f"}}
+{"time":"2024-10-04T14:55:25.974162943-04:00","level":"INFO","msg":"stream: closed","id":"iz7do56f"}

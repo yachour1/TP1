@@ -1,12 +1,14 @@
 from __future__ import division
 import torch
+torchversion = torch.__version__
+import torch.nn.functional as F
+from torch_geometric.nn import GCNConv, GATv2Conv
 import torch.nn as nn
 from utils import outputActivation
 import math
 from einops import rearrange, repeat
 import torch.nn.functional as F
-from torch_geometric.nn import GCNConv, GATv2Conv
-from linformer_pytorch import Linformer
+from linformer_pytorch.linformer_pytorch import Linformer
 from config import device
 
 

@@ -1,0 +1,18 @@
+
+python train_teacher.py > train_teacher_output.log 2>&1
+tail -f train_teacher_output.log
+
+
+screen -S training_session
+python train_teacher.py
+Ctrl + A, puis D
+screen -r training_session
+
+
+tmux new -s training_session
+python train_teacher.py
+Ctrl + B, puis D
+tmux attach -t training_session
+
+python train_student.py > train_student_output.log 2>&1
+tail -f train_student_output.log

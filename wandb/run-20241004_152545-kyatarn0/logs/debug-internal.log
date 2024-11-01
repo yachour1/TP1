@@ -1,0 +1,18 @@
+{"time":"2024-10-04T15:25:45.280773071-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-04T15:25:45.280849276-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241004_152545-kyatarn0/logs/debug-core.log"}
+{"time":"2024-10-04T15:25:45.283698909-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-04T15:25:45.289808917-04:00","level":"INFO","msg":"created new stream","id":"kyatarn0"}
+{"time":"2024-10-04T15:25:45.289839133-04:00","level":"INFO","msg":"stream: started","id":"kyatarn0"}
+{"time":"2024-10-04T15:25:45.289862695-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"kyatarn0"}}
+{"time":"2024-10-04T15:25:45.289915562-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kyatarn0"}}
+{"time":"2024-10-04T15:25:45.28996236-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"kyatarn0"}}
+{"time":"2024-10-04T15:25:45.467581419-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T15:25:45.468405647-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T15:25:52.60647922-04:00","level":"INFO","msg":"stream: closing","id":"kyatarn0"}
+{"time":"2024-10-04T15:25:52.60650526-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T15:25:52.607199569-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T15:25:52.968476285-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-04T15:25:53.06151398-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"kyatarn0"}}
+{"time":"2024-10-04T15:25:53.061581433-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kyatarn0"}}
+{"time":"2024-10-04T15:25:53.061619308-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"kyatarn0"}}
+{"time":"2024-10-04T15:25:53.061878739-04:00","level":"INFO","msg":"stream: closed","id":"kyatarn0"}

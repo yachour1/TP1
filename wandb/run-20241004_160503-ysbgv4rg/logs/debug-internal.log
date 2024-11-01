@@ -1,0 +1,18 @@
+{"time":"2024-10-04T16:05:03.935093479-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-04T16:05:03.935172058-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241004_160503-ysbgv4rg/logs/debug-core.log"}
+{"time":"2024-10-04T16:05:03.937910876-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-04T16:05:03.940953297-04:00","level":"INFO","msg":"created new stream","id":"ysbgv4rg"}
+{"time":"2024-10-04T16:05:03.94098953-04:00","level":"INFO","msg":"stream: started","id":"ysbgv4rg"}
+{"time":"2024-10-04T16:05:03.941009942-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ysbgv4rg"}}
+{"time":"2024-10-04T16:05:03.941072522-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ysbgv4rg"}}
+{"time":"2024-10-04T16:05:03.941048452-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ysbgv4rg"}}
+{"time":"2024-10-04T16:05:04.176373723-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T16:05:04.177158528-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T16:05:11.381829549-04:00","level":"INFO","msg":"stream: closing","id":"ysbgv4rg"}
+{"time":"2024-10-04T16:05:11.381856669-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T16:05:11.382542321-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T16:05:11.735963214-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-04T16:05:11.851529278-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ysbgv4rg"}}
+{"time":"2024-10-04T16:05:11.851601326-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ysbgv4rg"}}
+{"time":"2024-10-04T16:05:11.851654449-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"ysbgv4rg"}}
+{"time":"2024-10-04T16:05:11.851857512-04:00","level":"INFO","msg":"stream: closed","id":"ysbgv4rg"}

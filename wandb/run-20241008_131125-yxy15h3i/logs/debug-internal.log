@@ -1,0 +1,18 @@
+{"time":"2024-10-08T13:11:25.948765088-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T13:11:25.948855618-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241008_131125-yxy15h3i/logs/debug-core.log"}
+{"time":"2024-10-08T13:11:25.951374763-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T13:11:25.95533137-04:00","level":"INFO","msg":"created new stream","id":"yxy15h3i"}
+{"time":"2024-10-08T13:11:25.955388559-04:00","level":"INFO","msg":"stream: started","id":"yxy15h3i"}
+{"time":"2024-10-08T13:11:25.955398431-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yxy15h3i"}}
+{"time":"2024-10-08T13:11:25.955413327-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"yxy15h3i"}}
+{"time":"2024-10-08T13:11:25.955425272-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"yxy15h3i"}}
+{"time":"2024-10-08T13:11:26.141588586-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T13:11:26.142404721-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T13:11:33.518157991-04:00","level":"INFO","msg":"stream: closing","id":"yxy15h3i"}
+{"time":"2024-10-08T13:11:33.518184892-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T13:11:33.51887864-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T13:11:33.988559105-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-08T13:11:34.244780388-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"yxy15h3i"}}
+{"time":"2024-10-08T13:11:34.244871246-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"yxy15h3i"}}
+{"time":"2024-10-08T13:11:34.244887543-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"yxy15h3i"}}
+{"time":"2024-10-08T13:11:34.245231598-04:00","level":"INFO","msg":"stream: closed","id":"yxy15h3i"}

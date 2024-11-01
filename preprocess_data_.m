@@ -5,12 +5,12 @@ clc;
 
 %% Inputs:
 % Locations of raw input files:
-us101_1 = '../raw_data/trajectories-0750am-0805am.txt';
-us101_2 = '../raw_data/trajectories-0805am-0820am.txt';
-us101_3 = '../raw_data/trajectories-0820am-0835am.txt';
-i80_1 = '../raw_data/trajectories-0400-0415.txt';
-i80_2 = '../raw_data/trajectories-0500-0515.txt';
-i80_3 = '../raw_data/trajectories-0515-0530.txt';
+us101_1 = '/home/Yassine/HLTP/NGSIM/data/trajectories-0750am-0805am.txt';
+us101_2 = '/home/Yassine/HLTP/NGSIM/data/trajectories-0805am-0820am.txt';
+us101_3 = '/home/Yassine/HLTP/NGSIM/data/trajectories-0820am-0835am.txt';
+i80_1 = '/home/Yassine/HLTP/NGSIM/data/trajectories-0400-0415.txt';
+i80_2 = '/home/Yassine/HLTP/NGSIM/data/trajectories-0500-0515.txt';
+i80_3 = '/home/Yassine/HLTP/NGSIM/data/trajectories-0515-0530.txt';
 
 
 %% Fields: 
@@ -152,20 +152,28 @@ for ii = 1:6
     end
 end
 
-save('allData_s','traj');
+save('/home/Yassine/HLTP/NGSIM/data/dataset_t_v_t/allData_s','traj');
 
 
 %% Split train, validation, test
-load('./dataset/allData','traj');
+load('/home/Yassine/HLTP/NGSIM/data/dataset_t_v_t/allData_s','traj');
 disp('Splitting into train, validation and test sets...')
 
 tracks = {};
 trajAll = [];
 for k = 1:6
+    disp(['Processing dataset part ', num2str(k), ' out of 6']);
     vehIds = unique(traj{k}(:, 2));
+    disp(['Found ', num2str(length(vehIds)), ' vehicles for dataset part ', num2str(k)]);
     for l = 1:length(vehIds)
         vehTrack = traj{k}(traj{k}(:, 2)==vehIds(l), :);
         tracks{k,vehIds(l)} = vehTrack(:, 3:11)'; % features and maneuver class id
+
+        % Display the current vehicle being processed
+        if mod(l, 50) == 0
+            disp(['Processed ', num2str(l), ' out of ', num2str(length(vehIds)), ' vehicles']);
+        end
+
         filtered = vehTrack(30+1:end-50, :);
         trajAll = [trajAll; filtered];
     end
@@ -176,31 +184,28 @@ trajTr=[];
 trajVal=[];
 trajTs=[];
 for ii = 1:6
+    disp(['Splitting dataset ', num2str(ii), ' into train, validation, and test sets']);
+
     no = trajAll(find(trajAll(:,1)==ii),:);
     len1 = length(no)*0.7;
     len2 = length(no)*0.8;
     trajTr = [trajTr;no(1:len1,:)];
     trajVal = [trajVal;no(len1:len2,:)];
     trajTs = [trajTs;no(len2:end,:)];
+
+    disp(['Finished splitting dataset ', num2str(ii)]);
 end
 
 disp('Saving mat files...')
 %%
 traj = trajTr;
 save('TrainSet','traj','tracks');
+disp('Training set saved');
 
 traj = trajVal;
 save('ValSet','traj','tracks');
+disp('Validation set saved');
 
 traj = trajTs;
 save('TestSet','traj','tracks');
-
-
-
-
-
-
-
-
-
-
+disp('Test set saved');

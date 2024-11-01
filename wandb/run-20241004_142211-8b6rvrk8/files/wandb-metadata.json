@@ -1,0 +1,43 @@
+{
+  "os":  "Linux-5.14.0-508.el9.x86_64-x86_64-with-glibc2.34",
+  "python":  "3.9.20",
+  "startedAt":  "2024-10-04T18:22:12.001967Z",
+  "program":  "/home/usagers/yaach/Documents/HLTP/evaluate_student.py",
+  "codePath":  "evaluate_student.py",
+  "git":  {
+    "remote":  "https://github.com/Petrichor625/HLTP.git",
+    "commit":  "ebd72e219a6b08990284d10849385bcc1699a866"
+  },
+  "email":  "yassineachour2710@gmail.com",
+  "root":  "/home/usagers/yaach/Documents/HLTP",
+  "host":  "m3206-03b.rdgi.polymtl.ca",
+  "username":  "yaach",
+  "executable":  "/usagers3/yaach/miniconda3/envs/HLTP/bin/python",
+  "codePathLocal":  "evaluate_student.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  6,
+  "gpu":  "[NVIDIA GeForce RTX 2080 Ti]",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "75094818816",
+      "used":  "33337044992"
+    }
+  },
+  "memory":  {
+    "total":  "33298292736"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  6
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal":  "11811160064",
+      "cudaCores":  4352,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}

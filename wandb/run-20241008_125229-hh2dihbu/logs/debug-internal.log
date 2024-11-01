@@ -1,0 +1,18 @@
+{"time":"2024-10-08T12:52:29.823770837-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T12:52:29.823845375-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241008_125229-hh2dihbu/logs/debug-core.log"}
+{"time":"2024-10-08T12:52:29.826659327-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T12:52:29.832160734-04:00","level":"INFO","msg":"created new stream","id":"hh2dihbu"}
+{"time":"2024-10-08T12:52:29.832186259-04:00","level":"INFO","msg":"stream: started","id":"hh2dihbu"}
+{"time":"2024-10-08T12:52:29.83221529-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"hh2dihbu"}}
+{"time":"2024-10-08T12:52:29.832271719-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hh2dihbu"}}
+{"time":"2024-10-08T12:52:29.832334247-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"hh2dihbu"}}
+{"time":"2024-10-08T12:52:30.003867378-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T12:52:30.004673492-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T12:52:38.081080354-04:00","level":"INFO","msg":"stream: closing","id":"hh2dihbu"}
+{"time":"2024-10-08T12:52:38.081105323-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T12:52:38.081772157-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T12:52:38.427280427-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-08T12:52:38.515829619-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"hh2dihbu"}}
+{"time":"2024-10-08T12:52:38.515868243-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"hh2dihbu"}}
+{"time":"2024-10-08T12:52:38.515860467-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"hh2dihbu"}}
+{"time":"2024-10-08T12:52:38.515938891-04:00","level":"INFO","msg":"stream: closed","id":"hh2dihbu"}

@@ -1,0 +1,18 @@
+{"time":"2024-10-04T14:49:00.471646475-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-04T14:49:00.471720356-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241004_144900-xm35xeu7/logs/debug-core.log"}
+{"time":"2024-10-04T14:49:00.474608055-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-04T14:49:00.484653814-04:00","level":"INFO","msg":"created new stream","id":"xm35xeu7"}
+{"time":"2024-10-04T14:49:00.484708897-04:00","level":"INFO","msg":"stream: started","id":"xm35xeu7"}
+{"time":"2024-10-04T14:49:00.484756909-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"xm35xeu7"}}
+{"time":"2024-10-04T14:49:00.484894715-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xm35xeu7"}}
+{"time":"2024-10-04T14:49:00.484913114-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"xm35xeu7"}}
+{"time":"2024-10-04T14:49:00.846456869-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T14:49:00.846943724-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T14:49:08.291493265-04:00","level":"INFO","msg":"stream: closing","id":"xm35xeu7"}
+{"time":"2024-10-04T14:49:08.291532972-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T14:49:08.292234292-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T14:49:08.714395376-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-04T14:49:08.85775149-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"xm35xeu7"}}
+{"time":"2024-10-04T14:49:08.857803834-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xm35xeu7"}}
+{"time":"2024-10-04T14:49:08.858114029-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"xm35xeu7"}}
+{"time":"2024-10-04T14:49:08.858207925-04:00","level":"INFO","msg":"stream: closed","id":"xm35xeu7"}

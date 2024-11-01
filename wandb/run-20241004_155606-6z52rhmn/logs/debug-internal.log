@@ -1,0 +1,18 @@
+{"time":"2024-10-04T15:56:06.224058711-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-04T15:56:06.224076587-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241004_155606-6z52rhmn/logs/debug-core.log"}
+{"time":"2024-10-04T15:56:06.225241328-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-04T15:56:06.227930889-04:00","level":"INFO","msg":"created new stream","id":"6z52rhmn"}
+{"time":"2024-10-04T15:56:06.227960914-04:00","level":"INFO","msg":"stream: started","id":"6z52rhmn"}
+{"time":"2024-10-04T15:56:06.227984119-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"6z52rhmn"}}
+{"time":"2024-10-04T15:56:06.2280361-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"6z52rhmn"}}
+{"time":"2024-10-04T15:56:06.228242244-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"6z52rhmn"}}
+{"time":"2024-10-04T15:56:06.443118612-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T15:56:06.443947124-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T15:56:06.649988485-04:00","level":"INFO","msg":"stream: closing","id":"6z52rhmn"}
+{"time":"2024-10-04T15:56:06.650022036-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T15:56:06.650870691-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T15:56:07.091564099-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-04T15:56:07.194425587-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"6z52rhmn"}}
+{"time":"2024-10-04T15:56:07.194546373-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"6z52rhmn"}}
+{"time":"2024-10-04T15:56:07.194665251-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"6z52rhmn"}}
+{"time":"2024-10-04T15:56:07.195725355-04:00","level":"INFO","msg":"stream: closed","id":"6z52rhmn"}

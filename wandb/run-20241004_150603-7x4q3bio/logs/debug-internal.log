@@ -1,0 +1,18 @@
+{"time":"2024-10-04T15:06:03.94150173-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-04T15:06:03.941520052-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241004_150603-7x4q3bio/logs/debug-core.log"}
+{"time":"2024-10-04T15:06:03.942781422-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-04T15:06:03.945324201-04:00","level":"INFO","msg":"created new stream","id":"7x4q3bio"}
+{"time":"2024-10-04T15:06:03.94535174-04:00","level":"INFO","msg":"stream: started","id":"7x4q3bio"}
+{"time":"2024-10-04T15:06:03.945373737-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"7x4q3bio"}}
+{"time":"2024-10-04T15:06:03.94543234-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"7x4q3bio"}}
+{"time":"2024-10-04T15:06:03.945419386-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"7x4q3bio"}}
+{"time":"2024-10-04T15:06:04.159674189-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T15:06:04.160487965-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T15:06:11.259266943-04:00","level":"INFO","msg":"stream: closing","id":"7x4q3bio"}
+{"time":"2024-10-04T15:06:11.259292115-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T15:06:11.2600789-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T15:06:11.742864807-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-04T15:06:11.85072709-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"7x4q3bio"}}
+{"time":"2024-10-04T15:06:11.850804649-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"7x4q3bio"}}
+{"time":"2024-10-04T15:06:11.850870354-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"7x4q3bio"}}
+{"time":"2024-10-04T15:06:11.851147418-04:00","level":"INFO","msg":"stream: closed","id":"7x4q3bio"}

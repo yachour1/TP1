@@ -6,7 +6,7 @@ from config import *
 import matplotlib.pyplot as plt
 import os
 import time
-import student_model.student_model as stu_model
+import Student.student_model as stu_model
 
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 writer = pd.ExcelWriter('A.xlsx')
@@ -111,9 +111,9 @@ class Evaluate():
         if val:
             if dataset == "ngsim":
                 if args['lon_length'] == 3:
-                    t2 = lo.ngsimDataset('./data/dataset_t_v_t/TestSet.mat')
+                    t2 = lo.ngsimDataset('NGSIM/data/dataset_t_v_t/TestSet.mat')
                 else:
-                    t2 = lo.ngsimDataset('./data/5feature/TestSet.mat')
+                    t2 = lo.ngsimDataset('NGSIM/data/dataset_t_v_t/TestSet.mat')
             else:
                 t2 = lo.HighdDataset('Val')
             valDataloader = DataLoader(t2, batch_size=args['batch_size'], shuffle=True, num_workers=args['num_worker'],
@@ -121,9 +121,9 @@ class Evaluate():
         else:
             if dataset == "ngsim":
                 if args['lon_length'] == 3:
-                    t2 = lo.ngsimDataset('./data/dataset_t_v_t/TestSet.mat')
+                    t2 = lo.ngsimDataset('NGSIM/data/dataset_t_v_t/TestSet.mat')
                 else:
-                    t2 = lo.ngsimDataset('./data/5feature/TestSet.mat')
+                    t2 = lo.ngsimDataset('NGSIM/data/dataset_t_v_t/TestSet.mat')
             else:
                 t2 = lo.HighdDataset('Test')
             valDataloader = DataLoader(t2, batch_size=args['batch_size'], shuffle=True, num_workers=args['num_worker'],

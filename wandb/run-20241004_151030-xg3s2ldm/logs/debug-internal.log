@@ -1,0 +1,18 @@
+{"time":"2024-10-04T15:10:30.175220078-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-04T15:10:30.175293635-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241004_151030-xg3s2ldm/logs/debug-core.log"}
+{"time":"2024-10-04T15:10:30.178105567-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-04T15:10:30.185359372-04:00","level":"INFO","msg":"created new stream","id":"xg3s2ldm"}
+{"time":"2024-10-04T15:10:30.185415415-04:00","level":"INFO","msg":"stream: started","id":"xg3s2ldm"}
+{"time":"2024-10-04T15:10:30.187140092-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"xg3s2ldm"}}
+{"time":"2024-10-04T15:10:30.187333783-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"xg3s2ldm"}}
+{"time":"2024-10-04T15:10:30.187371781-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xg3s2ldm"}}
+{"time":"2024-10-04T15:10:30.381669321-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T15:10:30.382465477-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T15:10:37.590269634-04:00","level":"INFO","msg":"stream: closing","id":"xg3s2ldm"}
+{"time":"2024-10-04T15:10:37.590299114-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T15:10:37.590987805-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T15:10:37.905815644-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-04T15:10:42.505942909-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"xg3s2ldm"}}
+{"time":"2024-10-04T15:10:42.506010039-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"xg3s2ldm"}}
+{"time":"2024-10-04T15:10:42.506002085-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xg3s2ldm"}}
+{"time":"2024-10-04T15:10:42.506101097-04:00","level":"INFO","msg":"stream: closed","id":"xg3s2ldm"}

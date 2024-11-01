@@ -1,6 +1,6 @@
 from __future__ import print_function
 import torch
-from teacher_model.teacher_model import highwayNet
+from Teacher.teacher_model import highwayNet
 from loader2 import ngsimDataset
 from utils import maskedNLL, maskedMSETest, maskedNLLTest
 from torch.utils.data import DataLoader
@@ -54,6 +54,7 @@ class Evaluate_teacher():
                  va_batch, nbrsva_batch, edge_index_batch, ve_matrix_batch, ac_matrix_batch, man_matrix_batch, view_grip_batch, graph_matrix)
         all_time += time.time() - te
         return fut_pred, lat_pred, lon_pred
+        print(f'Total evaluation time: {all_time} seconds')
 
 class Evaluate():
     def __init__(self):
@@ -91,10 +92,12 @@ class Evaluate():
         metric = 'rmse'
         model_step = 1
         net = highwayNet(args)
-        net.load_state_dict(torch.load('./checkpoints/new/' + epoch_num + '.pth'))
+        net.load_state_dict(torch.load('./checkpoints/new/' + epoch_num + '.pth', map_location=torch.device('cuda')))
+        ##net.load_state_dict(torch.load('./checkpoints/new/' + epoch_num + '.pth'))
         net = net.to(device)
 
-        tsSet = ngsimDataset('./data/dataset_t_v_t/TestSet.mat')
+        tsSet = ngsimDataset('NGSIM/data/dataset_t_v_t/TestSet.mat')
+        ##tsSet = ngsimDataset('NGSIM/data/dataset_t_v_t/TestSet.mat')
         tsDataloader = DataLoader(tsSet, batch_size=batch_size, shuffle=True, num_workers=8, drop_last=True,
                                   collate_fn=tsSet.collate_fn)
         lossVals = torch.zeros(25).to(device)
@@ -104,6 +107,7 @@ class Evaluate():
 
         for i, data in enumerate(tsDataloader):
             st_time = time.time()
+            print(f'Evaluating batch {i+1}/{val_batch_count}')##track Evaluation progress
             hist_batch_stu, nbrs_batch_stu, lane_batch_stu, nbrslane_batch_stu, class_batch_stu, nbrsclass_batch_stu, va_batch_stu, nbrsva_batch_stu, fut_batch_stu, hist_batch, nbrs_batch, mask_batch, lat_enc_batch, lon_enc_batch, lane_batch, nbrslane_batch, class_batch, nbrsclass_batch, va_batch, nbrsva_batch, fut_batch, op_mask_batch, edge_index_batch, ve_matrix_batch, ac_matrix_batch, man_matrix_batch, view_grip_batch, graph_matrix = data
             if args['use_cuda']:
                 hist_batch = hist_batch.to(device)
@@ -163,6 +167,7 @@ class Evaluate():
             lossVals += l.detach()
             counts += c.detach()
             avg_val_loss += loss.item()
+            print(f'Batch {i+1}/{val_batch_count}, Loss: {loss.item()}') ## Track loss for each Batch
             if i == int(val_batch_count / 4) * model_step:
                 print('process:', model_step / 4)
                 model_step += 1
@@ -173,6 +178,7 @@ class Evaluate():
         else:
             print('valmse:', avg_val_loss / val_batch_count)
             print(torch.pow(lossVals / counts, 0.5) * 0.3048)
+
 
 
 if __name__ == '__main__':

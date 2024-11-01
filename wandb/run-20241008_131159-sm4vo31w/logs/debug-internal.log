@@ -1,0 +1,18 @@
+{"time":"2024-10-08T13:11:59.265580035-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T13:11:59.265697955-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241008_131159-sm4vo31w/logs/debug-core.log"}
+{"time":"2024-10-08T13:11:59.268618554-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T13:11:59.279641104-04:00","level":"INFO","msg":"created new stream","id":"sm4vo31w"}
+{"time":"2024-10-08T13:11:59.279694265-04:00","level":"INFO","msg":"stream: started","id":"sm4vo31w"}
+{"time":"2024-10-08T13:11:59.279733429-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"sm4vo31w"}}
+{"time":"2024-10-08T13:11:59.279832029-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"sm4vo31w"}}
+{"time":"2024-10-08T13:11:59.279866673-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"sm4vo31w"}}
+{"time":"2024-10-08T13:11:59.477656695-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T13:11:59.478487865-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T13:12:07.45302301-04:00","level":"INFO","msg":"stream: closing","id":"sm4vo31w"}
+{"time":"2024-10-08T13:12:07.453042873-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T13:12:07.453754445-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T13:12:07.818903143-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-08T13:12:07.921585831-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"sm4vo31w"}}
+{"time":"2024-10-08T13:12:07.921650546-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"sm4vo31w"}}
+{"time":"2024-10-08T13:12:07.921677741-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"sm4vo31w"}}
+{"time":"2024-10-08T13:12:07.921968608-04:00","level":"INFO","msg":"stream: closed","id":"sm4vo31w"}

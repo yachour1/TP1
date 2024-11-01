@@ -1,0 +1,18 @@
+{"time":"2024-10-04T15:29:34.07954722-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-04T15:29:34.079565282-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241004_152934-6ldximt0/logs/debug-core.log"}
+{"time":"2024-10-04T15:29:34.082165846-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-04T15:29:34.085215661-04:00","level":"INFO","msg":"created new stream","id":"6ldximt0"}
+{"time":"2024-10-04T15:29:34.085242735-04:00","level":"INFO","msg":"stream: started","id":"6ldximt0"}
+{"time":"2024-10-04T15:29:34.085272298-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"6ldximt0"}}
+{"time":"2024-10-04T15:29:34.085333686-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"6ldximt0"}}
+{"time":"2024-10-04T15:29:34.085401787-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"6ldximt0"}}
+{"time":"2024-10-04T15:29:34.298948817-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T15:29:34.299819654-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T15:29:41.665955092-04:00","level":"INFO","msg":"stream: closing","id":"6ldximt0"}
+{"time":"2024-10-04T15:29:41.665982312-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T15:29:41.666851614-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T15:29:42.034586849-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-04T15:29:42.123140451-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"6ldximt0"}}
+{"time":"2024-10-04T15:29:42.123180049-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"6ldximt0"}}
+{"time":"2024-10-04T15:29:42.123185954-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"6ldximt0"}}
+{"time":"2024-10-04T15:29:42.123286298-04:00","level":"INFO","msg":"stream: closed","id":"6ldximt0"}

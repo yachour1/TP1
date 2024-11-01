@@ -1,0 +1,18 @@
+{"time":"2024-10-08T12:56:52.490909623-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T12:56:52.490947862-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241008_125652-7o9eriiu/logs/debug-core.log"}
+{"time":"2024-10-08T12:56:52.493125905-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T12:56:52.499133067-04:00","level":"INFO","msg":"created new stream","id":"7o9eriiu"}
+{"time":"2024-10-08T12:56:52.499186065-04:00","level":"INFO","msg":"stream: started","id":"7o9eriiu"}
+{"time":"2024-10-08T12:56:52.499231475-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"7o9eriiu"}}
+{"time":"2024-10-08T12:56:52.499313081-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"7o9eriiu"}}
+{"time":"2024-10-08T12:56:52.499349717-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"7o9eriiu"}}
+{"time":"2024-10-08T12:56:52.723140097-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T12:56:52.723979153-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T12:57:00.553914201-04:00","level":"INFO","msg":"stream: closing","id":"7o9eriiu"}
+{"time":"2024-10-08T12:57:00.553931379-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T12:57:00.554570988-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T12:57:00.91669528-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-08T12:57:01.027132979-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"7o9eriiu"}}
+{"time":"2024-10-08T12:57:01.027224283-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"7o9eriiu"}}
+{"time":"2024-10-08T12:57:01.027271784-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"7o9eriiu"}}
+{"time":"2024-10-08T12:57:01.027526844-04:00","level":"INFO","msg":"stream: closed","id":"7o9eriiu"}

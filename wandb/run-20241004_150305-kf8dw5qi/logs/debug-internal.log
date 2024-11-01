@@ -1,0 +1,18 @@
+{"time":"2024-10-04T15:03:05.258128196-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-04T15:03:05.258167868-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241004_150305-kf8dw5qi/logs/debug-core.log"}
+{"time":"2024-10-04T15:03:05.260565825-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-04T15:03:05.271918934-04:00","level":"INFO","msg":"created new stream","id":"kf8dw5qi"}
+{"time":"2024-10-04T15:03:05.271962073-04:00","level":"INFO","msg":"stream: started","id":"kf8dw5qi"}
+{"time":"2024-10-04T15:03:05.272002314-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"kf8dw5qi"}}
+{"time":"2024-10-04T15:03:05.272088964-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kf8dw5qi"}}
+{"time":"2024-10-04T15:03:05.272068551-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"kf8dw5qi"}}
+{"time":"2024-10-04T15:03:05.873308974-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T15:03:05.873973028-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T15:03:13.00521675-04:00","level":"INFO","msg":"stream: closing","id":"kf8dw5qi"}
+{"time":"2024-10-04T15:03:13.005258383-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T15:03:13.006031649-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T15:03:13.305294618-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-04T15:03:13.403554333-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"kf8dw5qi"}}
+{"time":"2024-10-04T15:03:13.40363247-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kf8dw5qi"}}
+{"time":"2024-10-04T15:03:13.403667168-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"kf8dw5qi"}}
+{"time":"2024-10-04T15:03:13.403912819-04:00","level":"INFO","msg":"stream: closed","id":"kf8dw5qi"}

@@ -1,0 +1,18 @@
+{"time":"2024-10-04T14:26:48.534478709-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-04T14:26:48.534498343-04:00","level":"INFO","msg":"created symlink","path":"/home/usagers/yaach/Documents/HLTP/wandb/run-20241004_142648-nsoss316/logs/debug-core.log"}
+{"time":"2024-10-04T14:26:48.536113996-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-04T14:26:48.53894262-04:00","level":"INFO","msg":"created new stream","id":"nsoss316"}
+{"time":"2024-10-04T14:26:48.538966691-04:00","level":"INFO","msg":"stream: started","id":"nsoss316"}
+{"time":"2024-10-04T14:26:48.538991346-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"nsoss316"}}
+{"time":"2024-10-04T14:26:48.539042814-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nsoss316"}}
+{"time":"2024-10-04T14:26:48.539105056-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"nsoss316"}}
+{"time":"2024-10-04T14:26:48.722959453-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T14:26:48.723823008-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T14:26:55.940734276-04:00","level":"INFO","msg":"stream: closing","id":"nsoss316"}
+{"time":"2024-10-04T14:26:55.940761452-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T14:26:55.9415385-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T14:26:56.310831439-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-04T14:26:56.396248441-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"nsoss316"}}
+{"time":"2024-10-04T14:26:56.396268812-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"nsoss316"}}
+{"time":"2024-10-04T14:26:56.396304072-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"nsoss316"}}
+{"time":"2024-10-04T14:26:56.396349775-04:00","level":"INFO","msg":"stream: closed","id":"nsoss316"}
